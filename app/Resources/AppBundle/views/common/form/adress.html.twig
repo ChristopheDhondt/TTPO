@@ -1,0 +1,35 @@
+    <div class="row"><div class="col-lg-12"><h5>{{ form_label(adress) }}</h5></div></div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-4">
+            {{ form_label(adress.street) }}
+            {{ form_errors(adress.street) }}
+            {{ form_widget(adress.street) }}
+        </div>
+        <div class="col-lg-3 col-sm-4">
+            {{ form_label(adress.postNumber) }}
+            {{ form_errors(adress.postNumber) }}
+            {{ form_widget(adress.postNumber) }}
+        </div>
+       <div class="col-lg-3 col-sm-4">
+            {{ form_label(adress.postBox) }}
+            {{ form_errors(adress.postBox) }}
+            {{ form_widget(adress.postBox) }}
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-4">
+            {{ form_label(adress.postCode) }}
+            {{ form_errors(adress.postCode) }}
+            {{ form_widget(adress.postCode) }}
+        </div>
+        <div class="col-lg-3 col-sm-4">
+            {{ form_label(adress.city) }}
+            {{ form_errors(adress.city) }}
+            {{ form_widget(adress.city) }}
+        </div>
+       <div class="col-lg-3 col-sm-4">
+            {{ form_label(adress.country) }}
+            {{ form_errors(adress.country) }}
+            {{ form_widget(adress.country) }}
+        </div>
+    </div>

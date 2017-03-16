@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block content %}
+    <div class="panel panel-default">
+        <div class="panel-heading">Add Person</div>
+        <div class="panel-body">
+            {% block form %}
+                {% include('AppBundle:common/form:person.html.twig') %}
+            {% endblock%}
+        </div> 
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}

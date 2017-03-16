@@ -1,0 +1,24 @@
+{{ form_start(form) }}
+    <div class="row"><div class="col-lg-12"><h5>{{ form_label(form) }}</h5></div></div>
+    <div class="row">
+        <div class="col-lg-3 col-sm-4">
+            {{ form_label(form.nameFr) }}
+            {{ form_errors(form.nameFr) }}
+            {{ form_widget(form.nameFr) }}
+        </div>
+        <div class="col-lg-3 col-sm-4">
+            {{ form_label(form.nameNl) }}
+            {{ form_errors(form.nameNl) }}
+            {{ form_widget(form.nameNl) }}
+        </div>
+        <div class="col-lg-3 col-sm-4">
+            {{ form_label(form.nameDe) }}
+            {{ form_errors(form.nameDe) }}
+            {{ form_widget(form.nameDe) }}
+        </div>
+    </div>
+    {% set adress = form.officialAdress%}
+    {% include('AppBundle:common/form:adress.html.twig') %}    
+    {% set adress = form.postalAdress%}
+    {% include('AppBundle:common/form:adress.html.twig') %}    
+{{ form_end(form) }}

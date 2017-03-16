@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Applications/MAMP/htdocs/TTPO/app/Resources/AppBundle/views/common/form/person.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/src/AppBundle/Entity/Person.php</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/src/AppBundle/Controller/HomepageController.php</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/src/AppBundle/Form/Person/PersonType.php</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/app/Resources/AppBundle/views/admin/config/person/index.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/app/Resources/AppBundle/views/admin/config/federation/form.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/app/Resources/AppBundle/views/common/form/adress.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/src/AppBundle/Entity/ClubMember.php</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/src/AppBundle/Controller/PersonController.php</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/src/AppBundle/Repository/PersonRepository.php</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/app/Resources/AppBundle/views/user/person/add.html.twig</file>
+            <file>file:/Applications/MAMP/htdocs/TTPO/src/AppBundle/Controller/FederationController.php</file>
+        </group>
+    </open-files>
+</project-private>

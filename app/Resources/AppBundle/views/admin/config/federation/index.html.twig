@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+{% block content %}
+    <div class="panel panel-default">
+        <div class="panel-heading">Federations List</div>
+        <div class="panel-body">
+            <table class="table table-responsive">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for federation in federations %}
+                        <tr>
+                            <th scope="row">{{ loop.index }}</th>
+                            <td>{{federation.getName(app.request.locale)}}</td>
+                            <td>
+                                <a class="btn btn-primary" role="button" href="{{path('federation_edit',{'federation': federation.id})}}">Edit</a>
+                                <a class="btn btn-danger" role="button" href="{{path('federation_delete',{'federation': federation.id})}}">Delete</a>
+                            </td>
+                        </tr>
+                    {% endfor%}
+                </tbody>
+            </table>
+            <div class="row">
+                <div class="col-lg-3"><a class="btn btn-primary" role="button" href="{{path('federation_add')}}">Add</a></div>
+            </div>
+        </div> 
+    </div>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
